@@ -3,22 +3,22 @@
 // Description: Implementation of a shell. This program:
 // 1. Provides a prompt for running commands.
 // 2. Handles blank lines and comments, which are lines 
-//	  beginning with the # character.
+//    beginning with the # character.
 // 3. Provides expansion for the variable $$.
 // 4. Executes 3 commands (exit, cd, and status) via code 
-//	  built into the shell.
+//    built into the shell.
 // 5. Executes other commands by creating new processes 
-//	  using execvp().
+//    using execvp().
 // 6. Supports input and output redirection.
 // 7. Supports running commands in foreground and 
-//	  background processes.
+//    background processes.
 // 8. Implements custom handlers for 2 signals, 
-//	  SIGINT and SIGTSTP.
+//    SIGINT and SIGTSTP.
 // Sources used: https://repl.it/@cs344/53siguserc
-//				 https://repl.it/@cs344/studentsc#main.c
-//				 https://repl.it/@cs344/54sortViaFilesc
-//				 https://repl.it/@cs344/42waitpidexitc
-//				 https://repl.it/@cs344/42execvforklsc
+//		 https://repl.it/@cs344/studentsc#main.c
+//		 https://repl.it/@cs344/54sortViaFilesc
+//		 https://repl.it/@cs344/42waitpidexitc
+//		 https://repl.it/@cs344/42execvforklsc
 
 # include <stdio.h>
 # include <stdlib.h>
