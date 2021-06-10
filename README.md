@@ -1,4 +1,4 @@
-# Small_Shell
+# smallsh
 This shell implements a subset of features of the bash shell. This shell:
 1. Provides a prompt for running commands
 2. Handles blank lines and comments (beginning with #)
